@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<nav class="navbar fixed-top navbar-light bg-light">
+    <a class="navbar-brand">Quotesdaily</a>
+    <form class="form-inline">
+      <input id="personName" class="form-control mr-sm-2" type="search" placeholder="Enter Author's Name" aria-label="Search">
+      <button id="searchButton" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search by Author</button>
+      <div id="quoteContainer"></div>
+      </nav>
+    </form>
+  </nav>
+<body>
+    <section class="vh-100" style="background-color: #eee;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-lg-9 col-xl-7">
+              <div class="card" style="border-radius: 15px;">
+                <div class="card-body p-5">
+      
+                  <div class="text-center mb-4 pb-2">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-quotes/bulb.webp"
+                      alt="Bulb" width="100">
+                  </div>
+      
+                  <figure class="text-center mb-0">
+                    <blockquote class="blockquote">
+                      <p class="pb-3">
+                        <i class="fas fa-quote-left fa-xs text-primary"></i>
+                        <span id="quote" class="lead font-italic">Many of life's failures are people who did not realize how
+                          close they were to success when they gave up.</span>
+                        <i class="fas fa-quote-right fa-xs text-primary"></i>
+                      </p>
+                    </blockquote>
+                    <figcaption id="author" class="blockquote-footer mb-0">
+                      Thomas Edison
+                    </figcaption>
+                    <p></p>
+                    <input id="btn" class="btn btn-primary" type="Get New Quotes" value="Get New Quotes">
+                  </figure>
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="script.js"></script>
+</body>
+</html>
